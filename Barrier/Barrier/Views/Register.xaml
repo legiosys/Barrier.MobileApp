@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:control="clr-namespace:Xamarin.Forms.MaskedEntry;assembly=Xamarin.Forms.MaskedEntry"
+             x:Class="Barrier.Views.Register">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#037B16" Padding="15" CornerRadius="0">
+                <Label Text="Регистрация приложения" HorizontalTextAlignment="Center" TextColor="White" FontSize="Title"/>
+            </Frame>
+            <control:MaskedEntry Placeholder="Номер телефона" Mask="+7(XXX)XXX-XX-XX" Keyboard="Numeric"  Margin="30,0" x:Name="ed_phone"></control:MaskedEntry>
+            <Editor Placeholder="Ключ доступа" Margin="30,0" x:Name="ed_key"/>
+            <Button Text="Зарегистрировать"  Margin="30,0" Clicked="Reg_Button_Clicked" x:Name="btn_reg"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <ActivityIndicator x:Name="ai_reg"/>
+                <Label Grid.Column="1" Text="Регистрация приложения" IsVisible="false" x:Name="lbl_reg"></Label>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

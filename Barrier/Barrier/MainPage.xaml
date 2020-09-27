@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Barrier.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#FF037B16" Padding="15" CornerRadius="0">
+            <Label Text="Barrier" HorizontalTextAlignment="Center" TextColor="White" FontSize="Title"/>
+        </Frame>
+        <ListView x:Name="list_barrier">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </StackLayout>
+
+</ContentPage>

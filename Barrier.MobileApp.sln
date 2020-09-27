@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barrier.AndroidApp", "Barrier.AndroidApp\Barrier.AndroidApp.csproj", "{A8AAF0E3-7389-423E-A0B1-3977C99C12C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barrier.Android", "Barrier\Barrier.Android\Barrier.Android.csproj", "{3B884BFD-62DC-4B16-9076-FCB07D36D71B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barrier", "Barrier\Barrier\Barrier.csproj", "{6C2AD13E-ABFD-47A6-BF15-E96331E027C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A8AAF0E3-7389-423E-A0B1-3977C99C12C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A8AAF0E3-7389-423E-A0B1-3977C99C12C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A8AAF0E3-7389-423E-A0B1-3977C99C12C9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{A8AAF0E3-7389-423E-A0B1-3977C99C12C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A8AAF0E3-7389-423E-A0B1-3977C99C12C9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A8AAF0E3-7389-423E-A0B1-3977C99C12C9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3B884BFD-62DC-4B16-9076-FCB07D36D71B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B884BFD-62DC-4B16-9076-FCB07D36D71B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B884BFD-62DC-4B16-9076-FCB07D36D71B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3B884BFD-62DC-4B16-9076-FCB07D36D71B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B884BFD-62DC-4B16-9076-FCB07D36D71B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B884BFD-62DC-4B16-9076-FCB07D36D71B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6C2AD13E-ABFD-47A6-BF15-E96331E027C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C2AD13E-ABFD-47A6-BF15-E96331E027C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C2AD13E-ABFD-47A6-BF15-E96331E027C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C2AD13E-ABFD-47A6-BF15-E96331E027C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
