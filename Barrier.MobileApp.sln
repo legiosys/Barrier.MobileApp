@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barrier.AndroidApp", "Barrier.AndroidApp\Barrier.AndroidApp.csproj", "{A8AAF0E3-7389-423E-A0B1-3977C99C12C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8AAF0E3-7389-423E-A0B1-3977C99C12C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8AAF0E3-7389-423E-A0B1-3977C99C12C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8AAF0E3-7389-423E-A0B1-3977C99C12C9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A8AAF0E3-7389-423E-A0B1-3977C99C12C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8AAF0E3-7389-423E-A0B1-3977C99C12C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8AAF0E3-7389-423E-A0B1-3977C99C12C9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B6BC2ED-4A9E-4134-8785-5AC4583CFB02}
+	EndGlobalSection
+EndGlobal
